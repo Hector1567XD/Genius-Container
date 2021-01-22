@@ -1,0 +1,19 @@
+{
+    "name": "nextscale/scale-core",
+    "description": "Servicio de Nextscale para funcionalidades adicionales en aplicaciones",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Hector Ferrer",
+            "email": "3325449-HectorXD@users.noreply.gitlab.com"
+        }
+    ],
+    "require": {
+        "container-interop/container-interop": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Genius\\": "src/Genius"
+        }
+    }
+}
